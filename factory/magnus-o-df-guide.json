@@ -1,0 +1,15 @@
+{
+	"name": "magnus-o-df-guide",
+	"location": "norwayeast",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "22a8c600-581e-4abe-bb96-35b68f4256fd",
+		"tenantId": "c9b17b62-4dd5-44f5-a0cf-34e14b12a7d9",
+		"userAssignedIdentities": {
+			"/subscriptions/a9c652f7-120a-4e68-a668-16f41d471675/resourcegroups/ktg-test-noe-ai2022-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/AMI_magnuso_adf_guide": {
+				"clientId": "598dc148-4a9c-4ad4-a7e2-8d368f3a7c8c",
+				"principalId": "bf7f26b3-47e6-4dda-a01f-ce31435b312d"
+			}
+		}
+	}
+}

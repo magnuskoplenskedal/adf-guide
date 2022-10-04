@@ -1,0 +1,21 @@
+{
+	"name": "ADLS_Lego_Themes",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADSL_MagnusOdf",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "themes.parquet",
+				"fileSystem": "lego"
+			},
+			"compressionCodec": "none"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
