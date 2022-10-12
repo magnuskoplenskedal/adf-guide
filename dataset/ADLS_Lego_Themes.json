@@ -10,8 +10,12 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "themes.parquet",
-				"fileSystem": "lego"
+				"fileName": {
+					"value": "concat(utcnow(),\"_lego_themes.csv\")",
+					"type": "Expression"
+				},
+				"folderPath": "lego",
+				"fileSystem": "raw"
 			},
 			"compressionCodec": "none"
 		},
