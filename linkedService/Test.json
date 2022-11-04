@@ -1,0 +1,12 @@
+{
+	"name": "Test",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://api.entur.io/realtime/v1/subscribe",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
